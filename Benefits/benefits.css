@@ -1,0 +1,110 @@
+.why-section {
+  background: linear-gradient(to bottom, #1a001f 0%, #ffffff 50%, #1a001f 60%);
+  color: #fff;
+  padding: 60px 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.why-section .intro .content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.why-section .image {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+.why-section .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.why-section .text {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+
+.why-section .text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.why-section .text .highlight {
+  color: #e0b3ff;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  gap: 30px;
+  color: #000;
+}
+
+.feature {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.feature p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.regulation {
+  margin-top: 80px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.regulation-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.regulation-text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+.regulation-text h4 {
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+.regulation-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
+.regulation-image img {
+  width: 500px;
+  height: auto;
+}

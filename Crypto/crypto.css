@@ -1,0 +1,163 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #000;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.crypto-main h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.subheading {
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-bar input[type="text"],
+.search-bar select {
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #f9f9f9;
+  height: 35px;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar input[type="text"]:focus,
+.search-bar select:focus {
+  border-color: #888;
+}
+
+.search-bar select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  padding-right: 2.5rem;
+  cursor: pointer;
+}
+
+.crypto-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.crypto-header,
+.crypto-row {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1.5fr 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.crypto-header {
+  font-weight: bold;
+  background: #111;
+}
+
+.coin-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.green {
+  color: limegreen;
+}
+
+.red {
+  color: red;
+}
+
+.buy-btn {
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background-color: #0056b3;
+}
+
+.hot-coins {
+  background: #111;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #333;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.hot-coins h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 4px;
+}
+
+.hot-coins ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.hot-coins li {
+  display: flex;
+  align-items: center;
+}
+
+.hot-coins img {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+select{
+  display: none;
+}

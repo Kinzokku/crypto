@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>cryPto</title>
+  <link rel="stylesheet" href="crypto.css" />
+  <link rel="stylesheet" href="/global.css" />
+</head>
+<body>
+
+  <header>
+  <div class="container nav-bar">
+    <div class="logo">cry<span>PI</span>to</div>
+
+    <div class="hamburger">☰</div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="/Home/home.html">Home</a></li>
+        <li><a href="/Learn/learn.html">Learn</a></li>
+        <li><a href="/Crypto/crypto.html">Crypto</a></li>
+        <li><a href="/Benefits/benefits.html">Benefits</a></li>
+      </ul>
+    </nav>
+
+    <div class="buttons">
+      <a href="/Register/register.html" class="btn register">Register</a>
+      <a href="/Login/login.html" class="btn login">Login</a>
+    </div>
+  </div>
+</header>
+
+<main class="crypto-main container">
+  <h1>Crypto Price Today</h1>
+  <p class="subheading">Check real-time prices and market movements of top cryptocurrencies to stay ahead in the fast-changing crypto world.</p>
+
+  <div class="search-bar">
+    <button class="menu-btn">☰</button>
+    <input type="text" id="search" placeholder="Search crypto..." />
+    <select id="filter">
+      <option value="all">All Coins</option>
+      <option value="bitcoin">Bitcoin</option>
+      <option value="ethereum">Ethereum</option>
+      <option value="tether">Tether</option>
+      <option value="ripple">Ripple</option>
+      <option value="efwaicity29">Efwaicity29</option>
+      <option value="dontolcoin">DontolCoin</option>
+    </select>
+  </div>
+
+  <div class="hot-coins full-width">
+    <h2>Hot Coins</h2>
+    <ul>
+      <li><img src="Bitcoin.png" alt="BTC"> Bitcoin</li>
+      <li><img src="Eth.png" alt="ETH"> Ethereum</li>
+      <li><img src="Tether.png" alt="USDT"> Tether</li>
+      <li><img src="Ripple.png" alt="XRP"> Ripple</li>
+    </ul>
+  </div>
+
+  <div class="crypto-list full-width" id="crypto-list">
+    <div class="crypto-header">
+      <div>Name</div>
+      <div>Market Cap</div>
+      <div>Price</div>
+      <div>Change</div>
+      <div></div>
+    </div>
+
+    <div class="crypto-row" data-name="bitcoin">
+      <div><img src="Bitcoin.png" alt="BTC" class="coin-icon"> Bitcoin</div>
+      <div>Rp35.323,6T</div>
+      <div>Rp1.762.606.906</div>
+      <div class="green">+1.37%</div>
+      <div><button class="buy-btn">Buy</button></div>
+    </div>
+
+    <div class="crypto-row" data-name="ethereum">
+      <div><img src="Eth.png" alt="ETH" class="coin-icon"> Ethereum</div>
+      <div>Rp5.036,2T</div>
+      <div>Rp41.293.835</div>
+      <div class="green">+2,37%</div>
+      <div><button class="buy-btn">Buy</button></div>
+    </div>
+
+    <div class="crypto-row" data-name="tether">
+      <div><img src="Tether.png" alt="USDT" class="coin-icon"> Tether</div>
+      <div>Rp2.477,3T</div>
+      <div>Rp16.529</div>
+      <div>0%</div>
+      <div><button class="buy-btn">Buy</button></div>
+    </div>
+
+    <div class="crypto-row" data-name="ripple">
+      <div><img src="Ripple.png" alt="XRP" class="coin-icon"> Ripple</div>
+      <div>Rp2.233,5T</div>
+      <div>Rp37.581</div>
+      <div class="green">+1,23%</div>
+      <div><button class="buy-btn">Buy</button></div>
+    </div>
+
+    <div class="crypto-row" data-name="efwaicity29">
+      <div><img src="Efwaicity.jpg" alt="EFW" class="coin-icon"> Efwaicity29</div>
+      <div>Rp2.233,4T</div>
+      <div>Rp64.5012</div>
+      <div class="green">+8,29%</div>
+      <div><button class="buy-btn">Buy</button></div>
+    </div>
+
+    <div class="crypto-row" data-name="dontolcoin">
+      <div><img src="Dontol.jpeg" alt="DNTL" class="coin-icon"> DontolCoin</div>
+      <div>Rp4.D11,1T</div>
+      <div>Rp0.00002</div>
+      <div class="red">-9,11%</div>
+      <div><button class="buy-btn">Buy</button></div>
+    </div>
+  </div>
+</main>
+
+
+  <footer>
+    <div class="container footer-content">
+      <p>cryPIto © 2025. All rights reserved</p>
+      <ul class="footer-links">
+        <li><a href="/Home/home.html">Home</a></li>
+        <li><a href="/Learn/learn.html">Learn</a></li>
+        <li><a href="/Crypto/crypto.html">Crypto</a></li>
+        <li><a href="/Benefits/benefits.html">Benefits</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="#"><img src="https://img.icons8.com/ios-filled/20/ffffff/facebook.png"/></a>
+        <a href="#"><img src="https://img.icons8.com/ios-filled/20/ffffff/twitter.png"/></a>
+        <a href="#"><img src="https://img.icons8.com/ios-filled/20/ffffff/instagram-new.png"/></a>
+        <a href="#"><img src="https://img.icons8.com/ios-filled/20/ffffff/linkedin.png"/></a>
+      </div>
+    </div>
+  </footer>
+
+    <script src="crypto.js"></script>
+    <script src="/global.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+
+.video-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #0f1f3d;
+  color: white;
+}
+
+.video-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin-bottom: 40px;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background-color: #132e57;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.video-thumbnail {
+  flex: 2;
+  min-width: 300px;
+  aspect-ratio: 16 / 9;
+}
+
+.video-info {
+  flex: 1;
+  min-width: 200px;
+}
+
+.video-info h2 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.video-info p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 75%;
+}
+
+.video-card {
+  background-color: #132e57;
+  padding: 12px;
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.video-card iframe {
+  aspect-ratio: 16 / 9;
+  border: none;
+}
+
+.video-title {
+  margin-top: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #eee;
+}
+
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.faq-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.faq {
+  width: 75%;
+  background-color: #112d4e;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+.accordion {
+  background-color: #173d5e;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px 24px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border-top: 1px solid #1e4e76;
+}
+
+.accordion:first-of-type {
+  border-top: none;
+}
+
+.accordion:hover {
+  background-color: #1e4e76;
+}
+
+.panel {
+  padding: 0 24px;
+  background-color: #1b395e;
+  color: #ccc;
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+  margin: 16px 0;
+}
+
+.tips-section {
+  padding: 40px 20px;
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.tips-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.tips-header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  border-left: 4px solid #CEFE06;
+  padding-left: 12px;
+  margin: 0;
+}
+
+.tips-header p {
+  flex: 1 1 100%;
+  font-size: 16px;
+  color: #ccc;
+  margin: 8px 0;
+}
+
+.lihat-semua {
+  padding: 8px 16px;
+  border: 1.5px solid #5b5bff;
+  border-radius: 9999px;
+  color: #5b5bff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.lihat-semua:hover {
+  background-color: #5b5bff;
+  color: white;
+}
+
+.tips-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.tips-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.tips-card:hover {
+  transform: translateY(-4px);
+}
+
+.tips-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.label {
+  position: absolute;
+  margin: 10px;
+  background-color: #bbf7d0;
+  color: #065f46;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.tips-card h3 {
+  font-size: 16px;
+  margin: 12px;
+  margin-bottom: 4px;
+}
+
+.tips-card p {
+  font-size: 14px;
+  margin: 0 12px 12px;
+  color: #888;
+}
